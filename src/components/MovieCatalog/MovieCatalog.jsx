@@ -9,7 +9,7 @@ function MovieCatalog({movies}) {
     return (
         <Row justify="center" gutter={[16, 16]}>
             {movies.map(movie => (
-                <Col key={movie.id} xs={18} sm={10} md={8} lg={5} className="movie-catalog">
+                <Col key={movie.id} xs={18} sm={10} md={8} lg={7} xl={5} className="movie-catalog">
                     <MovieCard movie={movie}/>
                 </Col>
             ))}
