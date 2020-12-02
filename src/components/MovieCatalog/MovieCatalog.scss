@@ -1,0 +1,24 @@
+.movie-catalog{
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 25px;
+
+  .ant-card-cover{
+    img{
+      height: 350px !important;
+    }
+  }
+  .ant-card-meta-title{
+    text-align: center !important;
+  }
+}
+.ant-card{
+  opacity: 0.5 !important;
+  transition: all .5s ease !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+.ant-card:hover{
+  opacity: 1 !important;
+  transform: scale(1.1) !important;
+}
